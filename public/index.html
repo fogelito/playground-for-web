@@ -376,8 +376,8 @@
              */
             let promise = appwrite.account.createOAuth2Session(
                 "google",
-                "http://localhost:8000/?success", // Callback URL for success
-                "http://localhost:8000/?failure" // Callback URL for failure
+                "http://localhost:3000/?success", // Callback URL for success
+                "http://localhost:3000/?failure" // Callback URL for failure
             );
 
             promise.then(
@@ -399,8 +399,8 @@
              */
             let promise = appwrite.account.createOAuth2Session(
                 "facebook",
-                "http://localhost:8000/?success", // Callback URL for success
-                "http://localhost:8000/?failure", // Callback URL for failure
+                "http://localhost:3000/?success", // Callback URL for success
+                "http://localhost:3000/?failure", // Callback URL for failure
                 ["user_location"]
             );
 
@@ -423,8 +423,8 @@
              */
             let promise = appwrite.account.createOAuth2Session(
                 "github",
-                "http://localhost:8000/?success", // Callback URL for success
-                "http://localhost:8000/?failure", // Callback URL for failure
+                "http://localhost:3000/?success", // Callback URL for success
+                "http://localhost:3000/?failure", // Callback URL for failure
                 []
             );
 
@@ -447,8 +447,8 @@
              */
             let promise = appwrite.account.createOAuth2Session(
                 "apple",
-                "http://localhost:8000/?success", // Callback URL for success
-                "http://localhost:8000/?failure" // Callback URL for failure
+                "http://localhost:3000/?success", // Callback URL for success
+                "http://localhost:3000/?failure" // Callback URL for failure
             );
 
             promise.then(
